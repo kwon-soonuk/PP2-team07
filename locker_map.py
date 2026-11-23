@@ -1,4 +1,3 @@
-# [AI 사용] 클래스·함수 이름과 반환 형식(인터페이스)은 Claude로 설계 (권순욱, 2026-11-22)
 import tkinter as tk
 from models import EMPTY, PENDING, IN_USE
 
@@ -13,7 +12,6 @@ from models import EMPTY, PENDING, IN_USE
 # 색은 `bg=` 옵션으로: 빈자리 `lightgreen`, 신청중 `khaki`, 사용중 `salmon`
 # 파일 맨 위 AI 주석 한 줄, AI 도움 받은 부분마다 AI 주석
 #   ("내가 만드는 것", "내가 가져다 쓰는 것" 절과 단독 테스트 예도 함께 참고됨.)
-# 대화 기록: (이 대화 링크를 붙여 넣기)
 # 사용자: 조하늘 / 날짜: 2026-11-23
 COLS = 3  # 한 줄에 놓을 칸 수
 
