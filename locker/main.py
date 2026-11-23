@@ -38,7 +38,7 @@ from models import LockerManager
 from auth import get_role
 from student_view import open_student_window
 from admin_view import open_admin_window
-from locker_map import LockerMap
+from locker.locker_map import LockerMap
 
 # 2-1) 팀원 파일과 내 auth.py 에서 가져올 것 5개를 import 한다 (이름은 1차 약속 표 그대로)
 #        models       → LockerManager
